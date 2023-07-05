@@ -5,7 +5,7 @@
 body {
   display: flex;
   gap: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   min-height: 1024px;
 }
 .signup {
@@ -37,7 +37,7 @@ label {
   line-height: 21px;
   font-weight: 500;
 }
-input[type='text'] {
+input[type="text"] {
   border: #d9d9d9 solid 1px;
   border-radius: 10px;
   padding: 10px 0 10px 10px;
@@ -49,9 +49,9 @@ input::placeholder {
   line-height: 15px;
   font-weight: 500;
   color: #d9d9d9;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-label[for='agree'] {
+label[for="agree"] {
   font-size: 9px;
   line-height: 13.5px;
   margin-bottom: 20px;
@@ -59,7 +59,10 @@ label[for='agree'] {
   display: flex;
   align-items: center;
 }
-input[type='checkbox'] {
+.termsAndPolicy {
+  color: black;
+}
+input[type="checkbox"] {
   margin-right: 6px;
 }
 .signUpButton {
@@ -67,7 +70,7 @@ input[type='checkbox'] {
   padding-bottom: 3px;
   margin-top: 30px;
 }
-input[value='Signup'] {
+input[value="Signup"] {
   background-color: #3a5b22;
   width: 100%;
   border: none;
@@ -78,7 +81,7 @@ input[value='Signup'] {
   line-height: 19.5px;
   font-weight: 700;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .lines {
   display: flex;
@@ -116,7 +119,8 @@ button {
   font-weight: 500;
   border: none;
   background-color: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 h3 {
   font-size: 14px;
